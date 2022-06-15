@@ -1,0 +1,814 @@
+[
+  {
+    "number": 53,
+    "name": "#00053-LUDWIG VAN BEETHOVEN",
+    "address": "- LUDWIG VAN BEETHOVEN - RUE LUDWIG VAN BEETHOVEN ( DEVANT N° 45 )",
+    "latitude": 49.59,
+    "longitude": 6.1172
+  },
+  {
+    "number": 24,
+    "name": "#00024-WEICKER",
+    "address": "WEICKER - AVENUE JF KENNEDY / RUE ALPHONSE WEICKER",
+    "latitude": 49.631952,
+    "longitude": 6.17048
+  },
+  {
+    "number": 102,
+    "name": "#00102-FENTANGE HIEHL",
+    "address": "FENTANGE \"Hiehl\" - RUE DE BETTEMBOURG DEVANT N°75",
+    "latitude": 49.567771,
+    "longitude": 6.152463
+  },
+  {
+    "number": 88,
+    "name": "#00088-SERRA",
+    "address": "SERRA - AVENUE J.F. KENNEDY / CIRCUIT DE LA FOIRE (Arrêt Luxexpo)",
+    "latitude": 49.635423,
+    "longitude": 6.176061
+  },
+  {
+    "number": 6,
+    "name": "#00006-AL BRÉCK",
+    "address": "AL BRÉCK - VIADUC / BOULEVARD DE LA PETRUSSE",
+    "latitude": 49.60481,
+    "longitude": 6.133404
+  },
+  {
+    "number": 97,
+    "name": "#00097-HELFENT (PARKING)",
+    "address": "Rue de Luxembourg/Route de Longwy",
+    "latitude": 49.603644,
+    "longitude": 6.077783
+  },
+  {
+    "number": 47,
+    "name": "#00047-LEOPOLD GOEBEL",
+    "address": "LEOPOLD GOEBEL - ALLEE LEOPOLD GOEBEL ( DEVANT N° 109 )",
+    "latitude": 49.6122,
+    "longitude": 6.1072
+  },
+  {
+    "number": 89,
+    "name": "#00089-PLACE THORN",
+    "address": "Place Thorn/Bd Marcel Cahen ,50m avant rue Béatrix",
+    "latitude": 49.60361,
+    "longitude": 6.10278
+  },
+  {
+    "number": 33,
+    "name": "#00033-K. ADENAUER",
+    "address": "K. ADENAUER - BOULEVARD KONRAD ADENAUER ( DEVANT BEI )",
+    "latitude": 49.620586,
+    "longitude": 6.138998
+  },
+  {
+    "number": 85,
+    "name": "#00085-EINSTEIN",
+    "address": "Rue Albert Einstein/Bd de Kockelscheuer",
+    "latitude": 49.5842,
+    "longitude": 6.1249
+  },
+  {
+    "number": 17,
+    "name": "#00017-ROBERT SCHUMAN",
+    "address": "ROBERT SCHUMAN - SQUARE SCHUMAN",
+    "latitude": 49.616669,
+    "longitude": 6.126069
+  },
+  {
+    "number": 94,
+    "name": "#00094-HAMM-COLONIE",
+    "address": "Rue de Hamm/Rue des pruniers",
+    "latitude": 49.606983,
+    "longitude": 6.154863
+  },
+  {
+    "number": 11,
+    "name": "#00011-WINSTON CHURCHILL",
+    "address": "WINSTON CHURCHILL - PLACE CHURCHILL",
+    "latitude": 49.611317,
+    "longitude": 6.120003
+  },
+  {
+    "number": 23,
+    "name": "#00023-REIMERWEE",
+    "address": "REIMERWEE - BOULEVARD K ADENAUER / RUE K KALERGI",
+    "latitude": 49.629448,
+    "longitude": 6.157348
+  },
+  {
+    "number": 108,
+    "name": "#00108-EDELECK",
+    "address": "EDELECK - RUE DE LUXEMBOURG / EDELECK",
+    "latitude": 49.565477,
+    "longitude": 6.079436
+  },
+  {
+    "number": 75,
+    "name": "#00075-BEINCHEN",
+    "address": "BEINCHEN - RUE DU PONT",
+    "latitude": 49.61561,
+    "longitude": 6.13097
+  },
+  {
+    "number": 45,
+    "name": "#00045-AUBEPINES",
+    "address": "AUBEPINES - VAL SAINTE CROIX / RUE DES AUBEPINES",
+    "latitude": 49.61212,
+    "longitude": 6.09749
+  },
+  {
+    "number": 68,
+    "name": "#00068-UM SCHLASS",
+    "address": "UM SCHLASS - CEINTURE UM SCHLASS",
+    "latitude": 49.57337,
+    "longitude": 6.14397
+  },
+  {
+    "number": 27,
+    "name": "#00027-MERCIER",
+    "address": "MERCIER - PLACE DE LA GARE / RUE DU COMMERCE / PARKING",
+    "latitude": 49.5986,
+    "longitude": 6.132119
+  },
+  {
+    "number": 62,
+    "name": "#00062-LEYDENBACH",
+    "address": "LEYDENBACH - RUE LEYDENBACH / RUE DES LABOURS",
+    "latitude": 49.62915,
+    "longitude": 6.173101
+  },
+  {
+    "number": 115,
+    "name": "#00115-CENTRE CULTUREL CAP",
+    "address": "CENTRE CULTUREL CAP - ROUTE D'ARLON N°49 / PLACE DE L'EGLISE",
+    "latitude": 49.645239,
+    "longitude": 5.987938
+  },
+  {
+    "number": 82,
+    "name": "#00082-GARE CENTS-HAMM",
+    "address": "GARE CENTS-HAMM - RUE DES ALOUETTES / GARE DE CENTS-HAMM",
+    "latitude": 49.614749,
+    "longitude": 6.164772
+  },
+  {
+    "number": 1,
+    "name": "#00001-LEON XIII",
+    "address": "LEON XIII-RUE DE BONNEVOIE ( DEVANT N° 103 )",
+    "latitude": 49.598211,
+    "longitude": 6.137526
+  },
+  {
+    "number": 14,
+    "name": "#00014-KNUEDLER",
+    "address": "KNUEDLER - PLACE GUILLAUME",
+    "latitude": 49.610126,
+    "longitude": 6.132084
+  },
+  {
+    "number": 8,
+    "name": "#00008-METZER PLAZ",
+    "address": "METZER PLAZ - PLACE DE METZ",
+    "latitude": 49.607346,
+    "longitude": 6.12762
+  },
+  {
+    "number": 38,
+    "name": "#00038-HELLEG GEESCHT",
+    "address": "HELLEG GEESCHT - PLATEAU SAINT ESPRIT",
+    "latitude": 49.60771,
+    "longitude": 6.13456
+  },
+  {
+    "number": 19,
+    "name": "#00019-PHILHARMONIE",
+    "address": "PHILHARMONIE - AVENUE JF KENNEDY / PLACE DE L'EUROPE",
+    "latitude": 49.619345,
+    "longitude": 6.143907
+  },
+  {
+    "number": 50,
+    "name": "#00050-EUROPAPARLAMENT",
+    "address": "EUROPAPARLAMENT - Rue Léon Hammes, prés de l'arrêt Europaparlament",
+    "latitude": 49.620607,
+    "longitude": 6.147885
+  },
+  {
+    "number": 78,
+    "name": "#00078-ST MATHIEU",
+    "address": "Rue St.Mathieu/ prés de l'arrêt Pafendall",
+    "latitude": 49.619061,
+    "longitude": 6.1323
+  },
+  {
+    "number": 30,
+    "name": "#00030-MERKELS PLAZ",
+    "address": "- MERKELS PLAZ - RUE JEAN BAPTISTE MERKELS / Bd CHARLES MARX",
+    "latitude": 49.599846,
+    "longitude": 6.122565
+  },
+  {
+    "number": 113,
+    "name": "#00113-EDEMER",
+    "address": "EDEMER - QUARTIER EDEMER / RUE D'ATHÈNES / RUE DE PARIS",
+    "latitude": 49.629363,
+    "longitude": 6.017927
+  },
+  {
+    "number": 77,
+    "name": "#00077-FUNICULAIRE",
+    "address": "Avenue J.F.Kennedy/Parvis au Plateau KB prés de l'arrêt Pafendall",
+    "latitude": 49.618823,
+    "longitude": 6.136324
+  },
+  {
+    "number": 72,
+    "name": "#00072-AN DER BOURMICHT",
+    "address": "- AN DER BOURMICHT - ZONE INDUSTRIELLE BOURMICHT / RES DES MEROVINGIENS",
+    "latitude": 49.61086,
+    "longitude": 6.08097
+  },
+  {
+    "number": 16,
+    "name": "#00016-AMELIE",
+    "address": "- AMELIE - BOULEVARD ROYAL / AVENUE AMELIE",
+    "latitude": 49.613339,
+    "longitude": 6.125794
+  },
+  {
+    "number": 22,
+    "name": "#00022-CAMPUS KIRCHBIERG",
+    "address": "CAMPUS KIRCHBIERG - BOULEVARD JF KENNEDY / RUE K KALERGI",
+    "latitude": 49.6264,
+    "longitude": 6.1613
+  },
+  {
+    "number": 106,
+    "name": "#00106-CENTRE",
+    "address": "CENTRE - RUE DU LAVOIR",
+    "latitude": 49.567305,
+    "longitude": 6.064291
+  },
+  {
+    "number": 73,
+    "name": "#00073-JEANNE D'ARC",
+    "address": "- JEANNE D'ARC - PLACE JEANNE D'ARC",
+    "latitude": 49.59691,
+    "longitude": 6.147957
+  },
+  {
+    "number": 13,
+    "name": "#00013-GELLE FRA",
+    "address": "",
+    "latitude": 49.60951,
+    "longitude": 6.128503
+  },
+  {
+    "number": 56,
+    "name": "#00056-FISCHERHAFF",
+    "address": "FISCHERHAFF- RUE DE CESSANGE 177",
+    "latitude": 49.5911,
+    "longitude": 6.1057
+  },
+  {
+    "number": 25,
+    "name": "#00025-KIEM",
+    "address": "KIEM - CIRCUIT DE LA FOIRE / RUE ALPHONSE WEICKER",
+    "latitude": 49.634283,
+    "longitude": 6.166633
+  },
+  {
+    "number": 48,
+    "name": "#00048-BGL BNP PARIBAS",
+    "address": "BGL BNP PARIBAS  - RUE EDOUARD STEICHEN ( FACE N° 10 )",
+    "latitude": 49.632179,
+    "longitude": 6.174446
+  },
+  {
+    "number": 80,
+    "name": "#00080-INS",
+    "address": "Rue du Fort Dumoulin/Rue de Trèves",
+    "latitude": 49.612542,
+    "longitude": 6.147918
+  },
+  {
+    "number": 65,
+    "name": "#00065-BEI DER SCHOUL",
+    "address": "BEI DER SCHOUL - RUE FERDINAND KUHN",
+    "latitude": 49.58421,
+    "longitude": 6.14202
+  },
+  {
+    "number": 104,
+    "name": "#00104-ITZIG VILLAGE/PLACE MANDERSCHEID",
+    "address": "ITZIG VILLAGE/PLACE MANDERSCHEID - RUE DE HESPÉRANGE N°3",
+    "latitude": 49.58574,
+    "longitude": 6.171965
+  },
+  {
+    "number": 15,
+    "name": "#00015-THEATER PLAZ",
+    "address": "THEATER PLAZ - PLACE DU THEATRE ( FACE N°1 )",
+    "latitude": 49.612782,
+    "longitude": 6.131208
+  },
+  {
+    "number": 7,
+    "name": "#00007-ROUSEGAERTCHEN",
+    "address": "ROUSEGAERTCHEN - PLACE DES MARTYRS",
+    "latitude": 49.605818,
+    "longitude": 6.129062
+  },
+  {
+    "number": 92,
+    "name": "#00092-BRILL (CESSANGE)",
+    "address": "Rue des Prunelles/Bd du Brill",
+    "latitude": 49.58914,
+    "longitude": 6.099213
+  },
+  {
+    "number": 52,
+    "name": "#00052-BEI DER AUER",
+    "address": "BEI DER AUER - RUE DE GASPERICH ( DEVANT N° 20 )",
+    "latitude": 49.591404,
+    "longitude": 6.125333
+  },
+  {
+    "number": 84,
+    "name": "#00084-BITBOURG",
+    "address": "Rue de Bitbourg devant n°20",
+    "latitude": 49.61349,
+    "longitude": 6.17066
+  },
+  {
+    "number": 37,
+    "name": "#00037-GAULOIS",
+    "address": "GAULOIS - RUE DES GAULOIS 11",
+    "latitude": 49.60164,
+    "longitude": 6.13736
+  },
+  {
+    "number": 91,
+    "name": "#00091-MERSCH (MÜHLENBACH)",
+    "address": "Rue de Mühlenbach/ Rue Jules Mersch",
+    "latitude": 49.627834,
+    "longitude": 6.122333
+  },
+  {
+    "number": 35,
+    "name": "#00035-GASTON DIDERICH",
+    "address": "GASTON DIDERICH - AVENUE GASTON DIDERICH",
+    "latitude": 49.609904,
+    "longitude": 6.106099
+  },
+  {
+    "number": 114,
+    "name": "#00114-ROND-POINT MOTEL",
+    "address": "ROND-POINT MOTEL - ROUTE D'ARLON N°1 / ROUTE DE KOERICH",
+    "latitude": 49.641375,
+    "longitude": 6.001651
+  },
+  {
+    "number": 57,
+    "name": "#00057-BOUILLON",
+    "address": "BOUILLON - RUE DE BOUILLON / PARKING",
+    "latitude": 49.60001,
+    "longitude": 6.10826
+  },
+  {
+    "number": 4,
+    "name": "#00004-ROCADE",
+    "address": "ROCADE-RUE DU LABORATOIRE ( DEVANT VDL )",
+    "latitude": 49.602989,
+    "longitude": 6.136083
+  },
+  {
+    "number": 55,
+    "name": "#00055-SCHAARFEN ECK",
+    "address": "- SCHAARFEN ECK- RUE EMILE BIAN",
+    "latitude": 49.58043,
+    "longitude": 6.11465
+  },
+  {
+    "number": 86,
+    "name": "#00086-PWC - BD KOCKELSCHEUER",
+    "address": "Rue Gerhard Mercator n°2/Bd de Kockelscheuer",
+    "latitude": 49.580242,
+    "longitude": 6.120862
+  },
+  {
+    "number": 29,
+    "name": "#00029-MONTEREY",
+    "address": "MONTEREY - AVENUE DE MONTEREY ( FACE N° 49 )",
+    "latitude": 49.609583,
+    "longitude": 6.119523
+  },
+  {
+    "number": 103,
+    "name": "#00103-ALZINGEN GÄSSEL",
+    "address": "ALZINGEN GÄSSEL - RUE DE L'ECOLE ANGLE RUE DE SYREN",
+    "latitude": 49.568074,
+    "longitude": 6.163927
+  },
+  {
+    "number": 49,
+    "name": "#00049-MARGUERITES",
+    "address": "MARGUERITES - RUE DES MARGUERITES ( FACE N° 105 A )",
+    "latitude": 49.623837,
+    "longitude": 6.160642
+  },
+  {
+    "number": 105,
+    "name": "#00105-ITZIG PLATEAU/HUBERTUSPAD",
+    "address": "ITZIG PLATEAU/HUBERTUSPAD - RUE DE LA LIBÉRATION N°28",
+    "latitude": 49.587633,
+    "longitude": 6.170123
+  },
+  {
+    "number": 12,
+    "name": "#00012-ËNNESCHTGAASS",
+    "address": "ËNNESCHTGAASS - RUE NOTRE DAME 37",
+    "latitude": 49.610738,
+    "longitude": 6.126743
+  },
+  {
+    "number": 5,
+    "name": "#00005-PARAISER PLAZ",
+    "address": "PARAISER PLAZ - Rue Sainte ZITHE devant n°49 angle Place de Paris",
+    "latitude": 49.603694,
+    "longitude": 6.130189
+  },
+  {
+    "number": 44,
+    "name": "#00044-ARELER STROOSS",
+    "address": "ARELER STROOSS - RUE DES AUBEPINES ( FACE N° 187 )",
+    "latitude": 49.6162,
+    "longitude": 6.0984
+  },
+  {
+    "number": 112,
+    "name": "#00112-ADMINISTRATION COMMUNALE",
+    "address": "ADMINISTRATION COMMUNALE - RUE DE MARCHÉ / PLACE DE L'INDÉPENDANCE",
+    "latitude": 49.62635,
+    "longitude": 6.022996
+  },
+  {
+    "number": 109,
+    "name": "#00109-FOYER",
+    "address": "FOYER - RUE LÉON LAVAL N°21",
+    "latitude": 49.569178,
+    "longitude": 6.08175
+  },
+  {
+    "number": 31,
+    "name": "#00031-PLACE DE FRANCE",
+    "address": "PLACE DE FRANCE - PLACE DE FRANCE",
+    "latitude": 49.60625,
+    "longitude": 6.105961
+  },
+  {
+    "number": 36,
+    "name": "#00036-J.B. GELLE",
+    "address": "J.B. GELLE - RUE JEAN- BAPTISTE GELLE ( DEVANT N° 6 )",
+    "latitude": 49.596787,
+    "longitude": 6.1400375
+  },
+  {
+    "number": 95,
+    "name": "#00095-MAIRIE DE BERTRANGE",
+    "address": "MAIRIE DE BERTRANGE-2 Beim Schlass/ Rue de Leudelange",
+    "latitude": 49.61093,
+    "longitude": 6.051527
+  },
+  {
+    "number": 10,
+    "name": "#00010-MÄRELER PARC",
+    "address": "MÄRELER PARC - RUE DU 10 SEPTEMBRE ( DEVANT N° 108 )",
+    "latitude": 49.608146,
+    "longitude": 6.111627
+  },
+  {
+    "number": 39,
+    "name": "#00039-KRAIZGRENNCHEN",
+    "address": "KRAIZGRENNCHEN - SQUARE DE NEW- YORK",
+    "latitude": 49.613316,
+    "longitude": 6.117582
+  },
+  {
+    "number": 117,
+    "name": "#00117-SYRDALL SCHWEMM",
+    "address": "SYRDALL SCHWEMM - ROUTSCHEED N°8",
+    "latitude": 49.65314,
+    "longitude": 6.245365
+  },
+  {
+    "number": 34,
+    "name": "#00034-KOLLEISCH",
+    "address": "- KOLLEISCH - RUE DE BRAGANCE",
+    "latitude": 49.604577,
+    "longitude": 6.111927
+  },
+  {
+    "number": 63,
+    "name": "#00063-LABOURS",
+    "address": "LABOURS - RUE DES LABOURS / BLD J.F.KENNEDY",
+    "latitude": 49.6301,
+    "longitude": 6.16843
+  },
+  {
+    "number": 76,
+    "name": "#00076-SAUVAGE",
+    "address": "SAUVAGE - RUE JEAN-PIERRE SAUVAGE",
+    "latitude": 49.62521,
+    "longitude": 6.13938
+  },
+  {
+    "number": 41,
+    "name": "#00041-PLACE LAURENT",
+    "address": "PLACE LAURENT - PLACE AUGUSTE LAURENT",
+    "latitude": 49.620066,
+    "longitude": 6.122905
+  },
+  {
+    "number": 28,
+    "name": "#00028-CHARLY'S GARE",
+    "address": "CHARLY'S GARE - BOULEVARD PRINCE HENRI",
+    "latitude": 49.61258,
+    "longitude": 6.12391
+  },
+  {
+    "number": 2,
+    "name": "#00002-GARE CENTRALE 2",
+    "address": "GARE CENTRALE 2 - PLACE DE LA GARE N°3-5",
+    "latitude": 49.601051,
+    "longitude": 6.133744
+  },
+  {
+    "number": 99,
+    "name": "#00099-CAMPUS CENTS",
+    "address": "CAMPUS CENTS - RUE LÉON KAUFFMAN/RUE ROBERT BRUCH",
+    "latitude": 49.617566,
+    "longitude": 6.165165
+  },
+  {
+    "number": 83,
+    "name": "#00083-PULVERMÜHL",
+    "address": "Rue de Pulvermûhl/Rue du Fort Dumoulin",
+    "latitude": 49.608758,
+    "longitude": 6.149591
+  },
+  {
+    "number": 51,
+    "name": "#00051-SAUERWISS",
+    "address": "SAUERWISS - RUE ABBE FRANCOIS LASCOMBE ( DEVANT N° 54 )",
+    "latitude": 49.594088,
+    "longitude": 6.125123
+  },
+  {
+    "number": 90,
+    "name": "#00090-HUBERTY (MÜHLENBACH)",
+    "address": "Rue de Mühlenbach/Rue Jean-Pierre Huberty",
+    "latitude": 49.6294701613971,
+    "longitude": 6.11780413988129
+  },
+  {
+    "number": 20,
+    "name": "#00020-COQUE",
+    "address": "COQUE - AVENUE JF KENNEDY / RUE ERASME",
+    "latitude": 49.62297,
+    "longitude": 6.15497
+  },
+  {
+    "number": 98,
+    "name": "#00098-CITY CONCORDE",
+    "address": "CITY CONCORDE - Route de Longwy face n° 80 (City Concorde)",
+    "latitude": 49.600592,
+    "longitude": 6.065794
+  },
+  {
+    "number": 58,
+    "name": "#00058-SCHLUECHTHAUS",
+    "address": "SCHLUECHTHAUS - RUE DE L'ABATTOIR",
+    "latitude": 49.60136,
+    "longitude": 6.11581
+  },
+  {
+    "number": 71,
+    "name": "#00071-LES THERMES",
+    "address": "LES THERMES - RUE DU CIMETIERE",
+    "latitude": 49.61489,
+    "longitude": 6.07275
+  },
+  {
+    "number": 67,
+    "name": "#00067-MAIRIE DE HESPERANGE",
+    "address": "MAIRIE DE HESPERANGE - ROUTE DE THIONVILLE 474",
+    "latitude": 49.571924,
+    "longitude": 6.15965
+  },
+  {
+    "number": 87,
+    "name": "#00087-NATIONALBIBLIOTHEIK",
+    "address": "NATIONALBIBLIOTHEIK - Bd. KONRAD ADENAUER (Immeuble Bibliothèque Nationale)",
+    "latitude": 49.629865,
+    "longitude": 6.166252
+  },
+  {
+    "number": 79,
+    "name": "#00079-GARE CENTRALE",
+    "address": "GARE CENTRALE - PLACE DE LA GARE (Quai n°1)",
+    "latitude": 49.6017,
+    "longitude": 6.1331
+  },
+  {
+    "number": 96,
+    "name": "#00096-BERTRANGE - GARE",
+    "address": "Rue de l'industrie/Rue Chemin de Fer/ Rue de Strassen",
+    "latitude": 49.613161,
+    "longitude": 6.060382
+  },
+  {
+    "number": 26,
+    "name": "#00026-HOLLERECHER PLAZ",
+    "address": "HOLLERECHER PLAZ - PLACE SAINT PIERRE ET PAUL / RUE BAUDOUIN",
+    "latitude": 49.598613,
+    "longitude": 6.117957
+  },
+  {
+    "number": 54,
+    "name": "#00054-CLOCHE D' OR",
+    "address": "CLOCHE D'OR - RUE JEAN PIRET ( DEVANT N° 3 )",
+    "latitude": 49.583377,
+    "longitude": 6.115817
+  },
+  {
+    "number": 81,
+    "name": "#00081-CARMEL",
+    "address": "Allée du Carmel/Rue Paul Albrecht face Police",
+    "latitude": 49.62019,
+    "longitude": 6.172682
+  },
+  {
+    "number": 116,
+    "name": "#00116-CHARLY'S STATION",
+    "address": "CHARLY'S STATION - RUE DE GRÜNEWALD / CHÂTEAU D'EAU À 2633 SENNINGERBERG",
+    "latitude": 49.649823,
+    "longitude": 6.225796
+  },
+  {
+    "number": 70,
+    "name": "#00070-GEMENG STROOSSEN",
+    "address": "- GEMENG STROOSSEN - RUE DES ROMAINS",
+    "latitude": 49.61909,
+    "longitude": 6.07227
+  },
+  {
+    "number": 9,
+    "name": "#00009-CONVICT",
+    "address": "CONVICT - PLACE DU FOYER",
+    "latitude": 49.6059,
+    "longitude": 6.1199
+  },
+  {
+    "number": 43,
+    "name": "#00043-LYCEE TECHNIQUE DE BONNEVOIE",
+    "address": "LYCEE TECHNIQUE DE BONNEVOIE - RUE DU CIMETIERE ( DEVANT N° 110 )",
+    "latitude": 49.5911,
+    "longitude": 6.1416
+  },
+  {
+    "number": 111,
+    "name": "#00111-HALL SPORTIF NICOLAS FRANTZ",
+    "address": "HALL SPORTIF NICOLAS FRANTZ - RUE DE BERTRANGE / HALL SPORTIF NICOLAS FRANTZ",
+    "latitude": 49.623154,
+    "longitude": 6.024879
+  },
+  {
+    "number": 59,
+    "name": "#00059-ST HUBERT",
+    "address": "ST HUBERT - RUE DE MERL 147 / RUE ST HUBERT",
+    "latitude": 49.60289,
+    "longitude": 6.09322
+  },
+  {
+    "number": 69,
+    "name": "#00069-UM REIMERWEE",
+    "address": "UM REIMERWEE - RUE DU KIEM",
+    "latitude": 49.61769,
+    "longitude": 6.08276
+  },
+  {
+    "number": 74,
+    "name": "#00074-SAINTE CUNEGONDE",
+    "address": "SAINTE CUNEGONDE - PLACE STE CUNEGONDE",
+    "latitude": 49.6146,
+    "longitude": 6.14283
+  },
+  {
+    "number": 18,
+    "name": "#00018-CAMPUS LAMPERTSBIERG",
+    "address": "CAMPUS LAMPERTSBIERG - RUE DE LA FAIENCERIE ( DEVANT N° 151 )",
+    "latitude": 49.6219,
+    "longitude": 6.1118
+  },
+  {
+    "number": 3,
+    "name": "#00003-STROOSSBUERGER PLAZ",
+    "address": "STROOSSBUERGER PLAZ - PLACE DE STRASBOURG ( FACE N° 41 )",
+    "latitude": 49.600541,
+    "longitude": 6.128376
+  },
+  {
+    "number": 60,
+    "name": "#00060-BOCH",
+    "address": "BOCH - RUE J-F BOCH",
+    "latitude": 49.61925,
+    "longitude": 6.10842
+  },
+  {
+    "number": 107,
+    "name": "#00107-GARE",
+    "address": "GARE - RUE DE LA GARE N°166",
+    "latitude": 49.586736,
+    "longitude": 6.05966
+  },
+  {
+    "number": 66,
+    "name": "#00066-BEIM TENNIS",
+    "address": "BEIM TENNIS - RUE DES SCILLAS 55/BANQUE LUXEMBOURG",
+    "latitude": 49.579231,
+    "longitude": 6.134018
+  },
+  {
+    "number": 40,
+    "name": "#00040-GLACIS KAPELL",
+    "address": "GLACIS KAPELL - BOULEVARD DE LA FOIRE ( DEVANT N° 21 )",
+    "latitude": 49.6147,
+    "longitude": 6.1211
+  },
+  {
+    "number": 32,
+    "name": "#00032-PISCINE OLYMPIQUE",
+    "address": "PISCINE OLYMPIQUE - RUE LEON HENGEN",
+    "latitude": 49.623901,
+    "longitude": 6.150013
+  },
+  {
+    "number": 110,
+    "name": "#00110-ROND-POINT GASSECHTBIERG",
+    "address": "ROND-POINT GASSECHTBIERG - ROUTE D'ARLON / RUE DE LA LIBÉRATION",
+    "latitude": 49.627159,
+    "longitude": 6.031948
+  },
+  {
+    "number": 21,
+    "name": "#00021-JEAN MONNET",
+    "address": "JEAN MONNET - BOULEVARD KONRAD ADENAUER / RUE ERASME",
+    "latitude": 49.625714,
+    "longitude": 6.148347
+  },
+  {
+    "number": 93,
+    "name": "#00093-GODCHAUX (BONNEVOIE)",
+    "address": "Rue Auguste Charles/Rue Godchaux",
+    "latitude": 49.601652,
+    "longitude": 6.145533
+  },
+  {
+    "number": 42,
+    "name": "#00042-SQUARE ANDRE",
+    "address": "SQUARE ANDRE - SQUARE EDOUARD ANDRE ( DEVANT N° 1 )",
+    "latitude": 49.6238,
+    "longitude": 6.1188
+  },
+  {
+    "number": 100,
+    "name": "#00100-FORT NIEDERGRÜNEWALD",
+    "address": "FORT NIEDERGRÜNEWALD - RUE DU FORT NIEDERGRÜNEWALD/KENNEDY",
+    "latitude": 49.619439,
+    "longitude": 6.140894
+  },
+  {
+    "number": 64,
+    "name": "#00064-GRENIER",
+    "address": "GRENIER - RUE EDOUARD GRENIER",
+    "latitude": 49.59383,
+    "longitude": 6.14327
+  },
+  {
+    "number": 46,
+    "name": "#00046-LONKECHER STROOSS",
+    "address": "LONKECHER STROOSS - ROUTE DE LONGWY ( DEVANT N° 241 )",
+    "latitude": 49.60563,
+    "longitude": 6.10003
+  },
+  {
+    "number": 61,
+    "name": "#00061-FRIEDEN",
+    "address": "FRIEDEN - BVD PIERRE FRIEDEN",
+    "latitude": 49.637327,
+    "longitude": 6.164573
+  }
+]

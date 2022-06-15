@@ -1,0 +1,19 @@
+logging:
+  level:
+    io.r2dbc.postgresql.QUERY: DEBUG # for queries
+    io.r2dbc.postgresql.PARAM: DEBUG # for parameters
+
+spring:
+  main:
+    banner-mode: off
+
+  r2dbc:
+    url: r2dbc:pool:postgres://localhost:5431/postgis
+    username: postgis
+    password: postgis
+
+  flyway:
+    enabled: true
+    url: jdbc:postgresql://localhost:5431/postgis
+    user: postgis
+    password: postgis

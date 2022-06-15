@@ -5,3 +5,7 @@ An POC on the Open Data Veloh :
 https://data.public.lu/fr/datasets/mobilite-veloh/
 
 to experiment on https://postgis.net/[]
+
+* veloh-classic : Normal Spring-Boot // JPA // Rest implementation
+
+* veloh-rx: Reactive Spring Reactor // r2dbc implementation

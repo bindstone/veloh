@@ -1,0 +1,26 @@
+spring:
+  main:
+    banner-mode: off
+
+  datasource:
+    url: jdbc:postgresql://localhost:5431/postgis
+    username: postgis
+    password: postgis
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: validate
+    database-platform: org.hibernate.spatial.dialect.postgis.PostgisDialect
+    properties:
+      hibernate:
+        dialect: org.hibernate.spatial.dialect.postgis.PostgisDialect
+        jdbc:
+          lob:
+            non_contextual_creation: true
+
+  flyway:
+    enabled: true
+    url: jdbc:postgresql://localhost:5431/postgis
+    user: postgis
+    password: postgis
