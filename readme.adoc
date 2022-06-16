@@ -1,11 +1,50 @@
-# postGIS POC
+# Spatial Data (GIS) on Spring-Boot
 
-An POC on the Open Data Veloh :
+This is a scratch book containing skeleton POC implementations on the thematic Spatial. Most of was researching between the different implementation of the Spatial components like POINT, NEARBY...
 
-https://data.public.lu/fr/datasets/mobilite-veloh/
+The data used for the POC are from the Luxembourg Open Data Project Veloh,
+https://data.public.lu/fr/datasets/mobilite-veloh/ and given the different bicycle stations in Luxembourg City.
 
-to experiment on https://postgis.net/[]
+Here the different implementations all based on Java and Spring-Boot. All the implementations have 3 Web entry points:
 
-* veloh-classic : Normal Spring-Boot // JPA // Rest implementation
+* http://127.0.0.1:8080/station/ list all station point
 
-* veloh-rx: Reactive Spring Reactor // r2dbc implementation
+* http://127.0.0.1:8080/station/init load the JSON file from Open Data Luxembourg stored in the project under ./data
+
+* http://127.0.0.1:8080/station/next?lon=0.0&lat=0.0 shows the 5 closest stations based on the given parameters (lon/lat)
+
+The databases can be loaded with Docker implementation: ./infrastructure
+
+## veloh-classic
+
+Based on the database: https://postgis.net/
+
+The implementation is build on a classical Spring-Boot JPA Schema  (Entity/Repository/Service/Controller). On the current implementation, finding the proposed packages in Maven (pom.xml). Special point to take attention is a problem on Hibernate, which restricts an upgrade from the proposed solution (Point to follow up).
+
+Special Point to mention. I use FlyWay as Version Management tool for the Database, but also to provide a custom Function to delegate the Spatial specific instructions to th DB and keep the Backend implementation as clean and straightforward as possible. Point to investigate: Reduce the Mapping on StationDistanceRepository (see veloh-rx).
+
+## veloh-rx
+
+Based on the database: https://postgis.net/
+
+Reactive implementation based on the Spring Reactor Project.
+
+As JPA and Hibernate are removed, the project has no "legacy" libraries. Main problem was the conversion of the Geography/Point type Information. This was solved by a custom converter (DbConverters). Point to take attention, the WKBReader/WKBWriter are not Thread-Safe for this a new instance is currently done on each mapping (line). To evaluate in view of performance.
+
+## veloh-mongo
+
+Based on the database: https://www.mongodb.com/
+
+Reactive implementation on the NoSql database MongoDB. Only problem to identify the right class for the Geography (Point) data. Clean implementation with the Aggregator.
+
+Point to take attention and could be improved is the creation of the Index (see StationDistanceRepository). This is needed for using the Spatial Functions like $nearby.
+
+## veloh-neo4j
+
+Based on the database: https://neo4j.com/
+
+Reactive implementation on the NoSql database Neo4J. The current implementation has only nodes, no relations. Same as on MongoDB finding the class for representing the point (GeographicPoint2d).
+
+## Recapture
+
+In general all implementations are currently only scratches for experimenting with the different solutions. From budget, to experience level (Reactive Development, Databases...) to personal favorites, each solution has its playground and for this it is only a starting point to digg deeper and take a choice. Currently, the main problems have been to find the right documentations on implementing the Topic Spatial in the different technology stacks.

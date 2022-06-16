@@ -45,8 +45,8 @@ public class StationServiceImpl implements StationService {
     }
 
     @Override
-    public Flux<StationDistanceDao> findNext(Double lat, Double lon) {
-        return stationDistanceRepository.findNext(lat, lon);
+    public Flux<StationDistanceDao> findNext(Double lon, Double lat) {
+        return stationDistanceRepository.findNext(lon, lat);
     }
 
     private List<Station> loadJson() {
@@ -64,7 +64,7 @@ public class StationServiceImpl implements StationService {
                         var lat = jsonNode.get("latitude").asDouble();
                         var lon = jsonNode.get("longitude").asDouble();
                         GeometryFactory geomFactory = new GeometryFactory(new PrecisionModel(), 4326);
-                        station.setLocation(geomFactory.createPoint(new Coordinate(lat, lon)));
+                        station.setLocation(geomFactory.createPoint(new Coordinate(lon, lat)));
                         rtn.add(station);
                     }
                 });

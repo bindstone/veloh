@@ -1,16 +1,16 @@
-package com.bindstone.veloh.classic.service;
+package com.bindstone.veloh.neo4j.service;
 
-import com.bindstone.veloh.classic.entity.Station;
-import com.bindstone.veloh.classic.repository.StationDistanceRepository;
-import com.bindstone.veloh.classic.repository.StationRepository;
-import com.bindstone.veloh.classic.repository.dao.StationDistanceDao;
+import com.bindstone.veloh.neo4j.entity.Station;
+import com.bindstone.veloh.neo4j.repository.StationDistanceRepository;
+import com.bindstone.veloh.neo4j.repository.StationRepository;
+import com.bindstone.veloh.neo4j.repository.dao.StationDistanceDao;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.vividsolutions.jts.geom.Coordinate;
-import com.vividsolutions.jts.geom.GeometryFactory;
-import com.vividsolutions.jts.geom.PrecisionModel;
+import org.neo4j.springframework.data.types.GeographicPoint2d;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -29,21 +29,21 @@ public class StationServiceImpl implements StationService {
     }
 
     @Override
-    @Transactional(readOnly = true)
-    public List<Station> findAll() {
+    @Transactional(value = "reactiveTransactionManager", readOnly = true)
+    public Flux<Station> findAll() {
         return stationRepository.findAll();
     }
 
     @Override
-    @Transactional
-    public void init() {
+    @Transactional(value = "reactiveTransactionManager")
+    public Mono<Void> init() {
         var newStations = loadJson();
-        stationRepository.deleteAll();
-        stationRepository.saveAll(newStations);
+        return stationRepository.deleteAll()
+                .then(stationRepository.saveAll(newStations).then());
     }
 
     @Override
-    public List<StationDistanceDao> findNext(Double lon, Double lat) {
+    public Flux<StationDistanceDao> findNext(Double lon, Double lat) {
         return stationDistanceRepository.findNext(lon, lat);
     }
 
@@ -61,8 +61,7 @@ public class StationServiceImpl implements StationService {
                         station.setName(jsonNode.get("name").asText());
                         var lat = jsonNode.get("latitude").asDouble();
                         var lon = jsonNode.get("longitude").asDouble();
-                        GeometryFactory geomFactory = new GeometryFactory(new PrecisionModel(), 4326);
-                        station.setLocation(geomFactory.createPoint(new Coordinate(lon, lat)));
+                        station.setLocation(new GeographicPoint2d(lon, lat));
                         rtn.add(station);
                     }
                 });

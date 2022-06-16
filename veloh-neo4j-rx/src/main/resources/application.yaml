@@ -1,0 +1,12 @@
+spring:
+  main:
+    banner-mode: off
+
+
+org:
+  neo4j:
+    driver:
+      uri: "bolt://localhost:7687"
+      authentication:
+        username: "neo4j"
+        password: "letmein"

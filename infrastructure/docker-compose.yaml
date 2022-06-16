@@ -36,6 +36,14 @@ services:
       - ME_CONFIG_MONGODB_SERVER=mongodb
       - ME_CONFIG_MONGODB_PORT=27017
 
+  neo4j:
+    image: neo4j:4.2.18-community
+    environment:
+      - NEO4J_AUTH=neo4j/letmein
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+
 networks:
   mongonet:
     driver: bridge

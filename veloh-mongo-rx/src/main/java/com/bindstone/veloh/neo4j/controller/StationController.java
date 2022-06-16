@@ -1,8 +1,8 @@
-package com.bindstone.veloh.rx.controller;
+package com.bindstone.veloh.neo4j.controller;
 
-import com.bindstone.veloh.rx.entity.Station;
-import com.bindstone.veloh.rx.repository.dao.StationDistanceDao;
-import com.bindstone.veloh.rx.service.StationService;
+import com.bindstone.veloh.neo4j.entity.Station;
+import com.bindstone.veloh.neo4j.repository.dao.StationDistanceDao;
+import com.bindstone.veloh.neo4j.service.StationService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
