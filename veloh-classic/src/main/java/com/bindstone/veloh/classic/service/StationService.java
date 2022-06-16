@@ -11,5 +11,5 @@ public interface StationService {
 
     void init();
 
-    List<StationDistanceDao> findNext(Double lat, Double lng);
+    List<StationDistanceDao> findNext(Double lat, Double lon);
 }

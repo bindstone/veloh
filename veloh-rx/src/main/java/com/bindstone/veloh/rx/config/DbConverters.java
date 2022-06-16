@@ -36,7 +36,7 @@ public class DbConverters {
                 //WKTReader reader = new WKTReader(new GeometryFactory(new PrecisionModel(), 4326));
                 WKBReader reader = new WKBReader(new GeometryFactory(new PrecisionModel(), 4326));
                 //return (Point) reader.read( "POINT(-123 34)" );
-                return (Point)reader.read(HexFormat.of().parseHex(source));
+                return (Point) reader.read(HexFormat.of().parseHex(source));
             } catch (ParseException e) {
                 throw new RuntimeException(e);
             }

@@ -1,7 +1,7 @@
-package com.bindstone.veloh.rx.service;
+package com.bindstone.veloh.mongo.service;
 
-import com.bindstone.veloh.rx.entity.Station;
-import com.bindstone.veloh.rx.repository.dao.StationDistanceDao;
+import com.bindstone.veloh.mongo.entity.Station;
+import com.bindstone.veloh.mongo.repository.dao.StationDistanceDao;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 

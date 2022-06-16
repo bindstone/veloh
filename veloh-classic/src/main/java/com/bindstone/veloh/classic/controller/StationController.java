@@ -27,9 +27,9 @@ public class StationController {
     }
 
     @GetMapping(value = "/next")
-    // http://127.0.0.1:8080/station/next?lat=0.0&lng=0.0
-    public ResponseEntity<List<StationDistanceDao>> findNext(@RequestParam Double lat, @RequestParam Double lng) {
-        return ResponseEntity.ok(stationService.findNext(lat, lng));
+    // http://127.0.0.1:8080/station/next?lat=0.0&lon=0.0
+    public ResponseEntity<List<StationDistanceDao>> findNext(@RequestParam Double lat, @RequestParam Double lon) {
+        return ResponseEntity.ok(stationService.findNext(lat, lon));
     }
 
     @GetMapping(value = "/init")

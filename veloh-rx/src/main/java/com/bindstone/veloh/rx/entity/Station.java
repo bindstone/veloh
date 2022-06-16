@@ -11,7 +11,7 @@ public class Station {
     private String name;
     @Column("address")
     private String address;
-    @Column(value="location")
+    @Column(value = "location")
     private Point location;
 
     public Long getId() {

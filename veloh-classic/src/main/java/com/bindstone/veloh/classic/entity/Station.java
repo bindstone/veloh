@@ -7,8 +7,8 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Entity(name="station")
-@Table(name="station")
+@Entity(name = "station")
+@Table(name = "station")
 public class Station {
     @Id
     @Column(name = "ID")
@@ -20,7 +20,7 @@ public class Station {
     @Column(name = "address")
     private String address;
 
-    @Column(columnDefinition = "geography", name="location")
+    @Column(columnDefinition = "geography", name = "location")
     private Point location;
 
     public Long getId() {

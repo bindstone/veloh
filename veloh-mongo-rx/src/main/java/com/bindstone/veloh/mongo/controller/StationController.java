@@ -1,8 +1,8 @@
-package com.bindstone.veloh.rx.controller;
+package com.bindstone.veloh.mongo.controller;
 
-import com.bindstone.veloh.rx.entity.Station;
-import com.bindstone.veloh.rx.repository.dao.StationDistanceDao;
-import com.bindstone.veloh.rx.service.StationService;
+import com.bindstone.veloh.mongo.entity.Station;
+import com.bindstone.veloh.mongo.repository.dao.StationDistanceDao;
+import com.bindstone.veloh.mongo.service.StationService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

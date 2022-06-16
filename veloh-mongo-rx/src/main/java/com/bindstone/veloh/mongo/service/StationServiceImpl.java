@@ -1,14 +1,12 @@
-package com.bindstone.veloh.rx.service;
+package com.bindstone.veloh.mongo.service;
 
-import com.bindstone.veloh.rx.entity.Station;
-import com.bindstone.veloh.rx.repository.StationDistanceRepository;
-import com.bindstone.veloh.rx.repository.StationRepository;
-import com.bindstone.veloh.rx.repository.dao.StationDistanceDao;
+import com.bindstone.veloh.mongo.entity.Station;
+import com.bindstone.veloh.mongo.repository.StationDistanceRepository;
+import com.bindstone.veloh.mongo.repository.StationRepository;
+import com.bindstone.veloh.mongo.repository.dao.StationDistanceDao;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.vividsolutions.jts.geom.Coordinate;
-import com.vividsolutions.jts.geom.GeometryFactory;
-import com.vividsolutions.jts.geom.PrecisionModel;
+import org.springframework.data.mongodb.core.geo.GeoJsonPoint;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import reactor.core.publisher.Flux;
@@ -63,8 +61,7 @@ public class StationServiceImpl implements StationService {
                         station.setName(jsonNode.get("name").asText());
                         var lat = jsonNode.get("latitude").asDouble();
                         var lon = jsonNode.get("longitude").asDouble();
-                        GeometryFactory geomFactory = new GeometryFactory(new PrecisionModel(), 4326);
-                        station.setLocation(geomFactory.createPoint(new Coordinate(lat, lon)));
+                        station.setLocation(new GeoJsonPoint(lat, lon));
                         rtn.add(station);
                     }
                 });

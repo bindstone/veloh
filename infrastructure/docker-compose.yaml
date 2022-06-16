@@ -9,3 +9,33 @@ services:
       POSTGRES_USER: postgis
     ports:
       - 5431:5432
+
+  mongodb:
+    container_name: dev_mongodb
+    hostname: mongodb
+    image: mongo:4.2.3
+    ports:
+      - "27017:27017"
+      - "28017:28017"
+    environment:
+      - AUTH=no
+    networks:
+      - mongonet
+
+  mongo-admin:
+    container_name: dev_mongodb-admin
+    depends_on:
+      - mongodb
+    hostname: mongo-admin
+    image: mongo-express:0.54.0
+    ports:
+      - "8081:8081"
+    networks:
+      - mongonet
+    environment:
+      - ME_CONFIG_MONGODB_SERVER=mongodb
+      - ME_CONFIG_MONGODB_PORT=27017
+
+networks:
+  mongonet:
+    driver: bridge
