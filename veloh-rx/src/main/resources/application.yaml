@@ -17,3 +17,7 @@ spring:
     url: jdbc:postgresql://localhost:5431/postgis
     user: postgis
     password: postgis
+
+springdoc:
+  api-docs:
+    path: /api-docs
