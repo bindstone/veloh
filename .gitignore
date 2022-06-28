@@ -31,3 +31,54 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Flutter
+
+# Miscellaneous
+veloh_flutter/*.class
+veloh_flutter/*.log
+veloh_flutter/*.pyc
+veloh_flutter/*.swp
+veloh_flutter/.DS_Store
+veloh_flutter/.atom/
+veloh_flutter/.buildlog/
+veloh_flutter/.history
+veloh_flutter/.svn/
+veloh_flutter/migrate_working_dir/
+
+# IntelliJ related
+veloh_flutter/*.iml
+veloh_flutter/*.ipr
+veloh_flutter/*.iws
+veloh_flutter/.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+veloh_flutter/**/doc/api/
+veloh_flutter/**/ios/Flutter/.last_build_id
+veloh_flutter/.dart_tool/
+veloh_flutter/.flutter-plugins
+veloh_flutter/.flutter-plugins-dependencies
+veloh_flutter/.packages
+veloh_flutter/.pub-cache/
+veloh_flutter/.pub/
+veloh_flutter//build/
+
+# Web related
+veloh_flutter/lib/generated_plugin_registrant.dart
+
+# Symbolication related
+veloh_flutter/app.*.symbols
+
+# Obfuscation related
+veloh_flutter/app.*.map.json
+
+# Android Studio will place build artifacts here
+veloh_flutter/android/app/debug
+veloh_flutter/android/app/profile
+veloh_flutter/android/app/release
+
