@@ -479,3 +479,7 @@ Reactive implementation on the NoSql database Neo4J. The current implementation 
 ## Recapture
 
 In general all implementations are currently only scratches for experimenting with the different solutions. From budget, to experience level (Reactive Development, Databases...) to personal favorites, each solution has its playground and for this it is only a starting point to digg deeper and take a choice. Currently, the main problems have been to find the right documentations on implementing the Topic Spatial in the different technology stacks.
+
+## veloh_flutter (Bonus)
+
+Add a Flutter Map Application for displaying all the stations (Orange circle).

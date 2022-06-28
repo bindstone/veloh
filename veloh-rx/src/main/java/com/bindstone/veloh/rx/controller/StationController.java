@@ -3,10 +3,7 @@ package com.bindstone.veloh.rx.controller;
 import com.bindstone.veloh.rx.entity.Station;
 import com.bindstone.veloh.rx.repository.dao.StationDistanceDao;
 import com.bindstone.veloh.rx.service.StationService;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
@@ -21,6 +18,7 @@ public class StationController {
     }
 
     @GetMapping
+    @CrossOrigin
     public Flux<Station> findAll() {
         return stationService.findAll();
     }
