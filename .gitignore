@@ -66,7 +66,7 @@ veloh_flutter/.flutter-plugins-dependencies
 veloh_flutter/.packages
 veloh_flutter/.pub-cache/
 veloh_flutter/.pub/
-veloh_flutter//build/
+veloh_flutter/build/
 
 # Web related
 veloh_flutter/lib/generated_plugin_registrant.dart
