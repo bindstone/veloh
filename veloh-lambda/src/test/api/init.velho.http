@@ -1,0 +1,16 @@
+### GET request with a header
+GET http://127.0.0.1:8080/initStations/
+Accept: application/json
+
+### GET request with a header
+GET http://127.0.0.1:8080/getAllStations/
+Accept: application/json
+
+### Post
+POST http://127.0.0.1:8080/getNextStations/
+Content-Type: application/json
+
+{
+  "lon": 45.00,
+  "lat": 0.00
+}
