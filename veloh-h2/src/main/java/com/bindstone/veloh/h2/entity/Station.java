@@ -1,11 +1,13 @@
 package com.bindstone.veloh.h2.entity;
 
+import com.bedatadriven.jackson.datatype.jts.serialization.GeometryDeserializer;
+import com.bedatadriven.jackson.datatype.jts.serialization.GeometrySerializer;
+import com.bindstone.veloh.h2.config.DbConverters;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.vividsolutions.jts.geom.Point;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity(name = "station")
 @Table(name = "station")
@@ -21,6 +23,9 @@ public class Station {
     private String address;
 
     @Column(columnDefinition = "geometry", name = "location")
+    @Convert(converter = DbConverters.class)
+    @JsonSerialize(using = GeometrySerializer.class)
+    @JsonDeserialize(contentUsing = GeometryDeserializer.class)
     private Point location;
 
     public Long getId() {

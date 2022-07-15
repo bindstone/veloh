@@ -19,6 +19,7 @@
         <jackson.jts.version>2.4</jackson.jts.version>
         <jts.version>1.14.0</jts.version>
         <h2.version>1.4.197</h2.version>
+        <h2gis.version>1.5.0</h2gis.version>
     </properties>
 
     <!-- Spring -->
@@ -55,9 +56,8 @@
         <dependency>
             <groupId>org.orbisgis</groupId>
             <artifactId>h2gis</artifactId>
-            <version>1.5.0</version>
+            <version>${h2gis.version}</version>
         </dependency>
-
 
         <!-- Tools and Test -->
         <dependency>
