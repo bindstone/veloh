@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.bindstone.veloh.mybatis.repository.StationRepository">
+    <delete id="deleteAll">
+        DELETE
+        from STATION;
+    </delete>
+
+    <insert id="save" parameterType="com.bindstone.veloh.mybatis.entity.Station">
+        INSERT INTO STATION ("id", "station_name", "address", "location")
+        VALUES (#{id}, #{name}, #{address}, #{location});
+    </insert>
+
+    <insert id="saveAll" parameterType="java.util.List">
+        INSERT INTO STATION ("id","station_name", "address", "location")
+        VALUES
+        <foreach collection="stations" item="item" index="index" open="(" separator="),(" close=");">
+            #{item.id}, #{item.name}, #{item.address}, #{item.location}
+        </foreach>
+    </insert>
+
+    <select id="findNext" resultType="com.bindstone.veloh.mybatis.repository.dao.StationDistanceDao"
+            parameterType="java.util.Map">
+        SELECT station.id, station.station_name, station.address, ST_Distance(location, poi) AS distance
+        FROM station,
+             (select ST_MakePoint(#{lon}, #{lat}) ::geography as poi) as poi
+        ORDER BY ST_Distance(location, poi)
+        LIMIT #{maxStations};
+    </select>
+
+    <select id="findById" resultType="com.bindstone.veloh.mybatis.entity.Station" parameterType="int">
+        SELECT id, station_name, address, location
+        FROM station
+        where id = #{id};
+    </select>
+</mapper>

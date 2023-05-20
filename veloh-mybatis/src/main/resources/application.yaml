@@ -1,0 +1,18 @@
+spring:
+  main:
+    banner-mode: off
+
+  datasource:
+    url: jdbc:postgresql://localhost:5431/postgis
+    username: postgis
+    password: postgis
+
+  flyway:
+    enabled: true
+    url: jdbc:postgresql://localhost:5431/postgis
+    user: postgis
+    password: postgis
+
+mybatis:
+  mapper-locations: classpath:mapper/**/*-mapper.xml
+  type-handlers-package: com.bindstone.veloh.mybatis.repository.typehandler

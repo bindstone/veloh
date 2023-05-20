@@ -476,6 +476,10 @@ Based on the database: https://neo4j.com/
 
 Reactive implementation on the NoSql database Neo4J. The current implementation has only nodes, no relations. Same as on MongoDB finding the class for representing the point (GeographicPoint2d).
 
+## velho-mybatis
+
+An implementation using the framework https://mybatis.org/mybatis-3/[MyBatis] for accessing the database. The main advantage, it can handle all the special operators of PostGIS and you can write natural SQL statements in XML file. This separates code and sql in a clean way.
+
 ## Recapture
 
 In general all implementations are currently only scratches for experimenting with the different solutions. From budget, to experience level (Reactive Development, Databases...) to personal favorites, each solution has its playground and for this it is only a starting point to digg deeper and take a choice. Currently, the main problems have been to find the right documentations on implementing the Topic Spatial in the different technology stacks.
